@@ -1,0 +1,148 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Apr 28 12:50:35 2024
+
+@author: max
+"""
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Predictions</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .country { margin-bottom: 40px; }
+        .country h2 { color: #2c3e50; }
+        .country img { width: 100%; max-width: 300px; height: auto; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>SARIMA Weather Prediction for European Countries</h1>
+    <p>Click on the images to enlarge them.</p>
+
+    <!-- Repeat this block for each country with the appropriate image paths -->
+    <div class="country">
+        <h2>Basel</h2>
+        <img src="D:/TRENDS FIGURES/BASEL/3_year_temp.png" alt="Temperature Prediction for Basel">
+        <img src="D:/TRENDS FIGURES/BASEL/3prec.png" alt="Precipitation Prediction for Basel">
+    </div>
+
+    <div class="country">
+        <h2>Budapest</h2>
+        <img src="D:/TRENDS FIGURES/BUDAPEST/3_year_tep.png" alt="Temperature Prediction for Budapest">
+        <img src="D:/TRENDS FIGURES/BUDAPEST/3prec.png" alt="Precipitation Prediction for Budapest">
+    </div>
+    
+    <div class="country">
+        <h2>De Bilt</h2>
+        <img src="D:/TRENDS FIGURES/DE_BILT/3temp.png" alt="Temperature Prediction for De Bilt">
+        <img src="D:/TRENDS FIGURES/DE_BILT/3prec.png" alt="Precipitation Prediction De Bilt">
+    </div>
+    
+    <div class="country">
+        <h2>Dresden</h2>
+        <img src="D:/TRENDS FIGURES/DRESDEN/3temp.png" alt="Temperature Prediction for Dresden">
+        <img src="D:/TRENDS FIGURES/DRESDEN/3prec.png" alt="Precipitation Prediction for Dresden">
+    </div>
+    
+    <div class="country">
+        <h2>Dusseldorf</h2>
+        <img src="D:/TRENDS FIGURES/DUSSELDORF/3temp.png" alt="Temperature Prediction for Dusseldorf">
+        <img src="D:/TRENDS FIGURES/DUSSELDORF/3prec.png" alt="Precipitation Prediction for Dusseldorf">
+    </div>
+    
+    <div class="country">
+        <h2>Heathrow</h2>
+        <img src="D:/TRENDS FIGURES/HEATHROW/3_temp.png" alt="Temperature Prediction for Heathrow">
+        <img src="D:/TRENDS FIGURES/HEATHROW/3prec.png" alt="Precipitation Prediction for Heathrow">
+    </div>
+    
+    <div class="country">
+        <h2>Kassel</h2>
+        <img src="D:/TRENDS FIGURES/KASSEL/3temp.png" alt="Temperature Prediction for Kassel">
+        <img src="D:/TRENDS FIGURES/KASSEL/3prec.png" alt="Precipitation Prediction for Kassel">
+    </div>
+    
+    <div class="country">
+        <h2>Ljubljana</h2>
+        <img src="D:/TRENDS FIGURES/Ljubljana/3temp.png" alt="Temperature Prediction for Ljubljana">
+        <img src="D:/TRENDS FIGURES/Ljubljana/3prec.png" alt="Precipitation Prediction for Ljubljana">
+    </div>
+    
+    <div class="country">
+        <h2>Maastricht</h2>
+        <img src="D:/TRENDS FIGURES/MAASTRICHT/3temp.png" alt="Temperature Prediction for Maastricht">
+        <img src="D:/TRENDS FIGURES/MAASTRICHT/3prec.png" alt="Precipitation Prediction for Maastricht">
+    </div>
+    
+    <div class="country">
+        <h2>Malmo</h2>
+        <img src="D:/TRENDS FIGURES/MALMO/3temp.png" alt="Temperature Prediction for Malmo">
+        <img src="D:/TRENDS FIGURES/MALMO/3prec.png" alt="Precipitation Prediction for Malmo">
+    </div>
+    
+    <div class="country">
+        <h2>Montelimar</h2>
+        <img src="D:/TRENDS FIGURES/MONTELIMAR/3temp.png" alt="Temperature Prediction for Montelimar">
+        <img src="D:/TRENDS FIGURES/MONTELIMAR/3prec.png" alt="Precipitation Prediction for Montelimar">
+    </div>
+    
+    <div class="country">
+        <h2>Munchen</h2>
+        <img src="D:/TRENDS FIGURES/MUNCHEN/3temp.png" alt="Temperature Prediction for Munchen">
+        <img src="D:/TRENDS FIGURES/MUNCHEN/3prec.png" alt="Precipitation Prediction for Munchen">
+    </div>
+    
+    <div class="country">
+        <h2>Oslo</h2>
+        <img src="D:/TRENDS FIGURES/OSLO/3temp.png" alt="Temperature Prediction for Oslo">
+        <img src="D:/TRENDS FIGURES/OSLO/3prec.png" alt="Precipitation Prediction for Oslo">
+    </div>
+    
+    <div class="country">
+        <h2>Perpignan</h2>
+        <img src="D:/TRENDS FIGURES/PERPIGNAN/3temp.png" alt="Temperature Prediction for Perpignan">
+        <img src="D:/TRENDS FIGURES/PERPIGNAN/3prec.png" alt="Precipitation Prediction for Perpignan">
+    </div>
+    
+    <div class="country">
+        <h2>Roma</h2>
+        <img src="D:/TRENDS FIGURES/ROMA/3temp.png" alt="Temperature Prediction for Roma">
+    </div>
+    
+    <div class="country">
+        <h2>Sonnblick</h2>
+        <img src="D:/TRENDS FIGURES/SONNBLICK/3temp.png" alt="Temperature Prediction for Sonnblick">
+        <img src="D:/TRENDS FIGURES/SONNBLICK/3prec.png" alt="Precipitation Prediction for Sonnblick">
+    </div>
+    
+    <div class="country">
+        <h2>Stockholm</h2>
+        <img src="D:/TRENDS FIGURES/STOCKHOLM/3temp.png" alt="Temperature Prediction for Stockholm">
+        <img src="D:/TRENDS FIGURES/STOCKHOLM/3prec.png" alt="Precipitation Prediction for Stockholm">
+    </div>
+    
+    <div class="country">
+        <h2>Tours</h2>
+        <img src="D:/TRENDS FIGURES/TOURS/3temp.png" alt="Temperature Prediction for Tours">
+        <img src="D:/TRENDS FIGURES/TOURS/3prec.png" alt="Precipitation Prediction for Tours">
+    </div>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const images = document.querySelectorAll(".country img");
+        images.forEach(image => {
+            image.addEventListener("click", () => {
+                const enlarged = window.open('', '_blank');
+                enlarged.document.write('<img src="' + image.src + '" style="width: 100%;">');
+                enlarged.document.title = image.alt;
+            });
+        });
+    });
+</script>
+
+
+</body>
+</html>
